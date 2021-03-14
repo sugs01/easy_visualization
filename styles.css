@@ -1,0 +1,83 @@
+/* Make sure the filename doesn't extend past the bounds of the container */
+.shiny-input-container input[type=file] {
+  /*overflow: hidden;*/
+  max-width: 100%;
+}
+
+.checkbox label {
+  font-weight: 600;
+  font-size: small;
+}
+
+/* side bar numeric input, matching style to side bar. */
+#plot_dpi {
+  background: #222d32;
+  color: white;
+  border-color: gray;
+}
+label[for="plot_dpi"] {
+  color: lightgray;
+  font-weight: normal;
+}
+
+/* adjust radio button vertical alignment. right now only adjust specific item in place */
+/*
+.shiny-options-group {
+  margin-top: 4px;
+}
+*/
+
+#outlier_report {
+  display: inline-block;
+}
+
+
+#shiny-notification-panel {
+  bottom: 50%;
+  right: 30%;
+}
+/* withProgress notification */
+/*.shiny-progress-notification {
+  background: #f59d00;
+}
+*/
+
+.shiny-notification {
+  opacity: 0.99;
+  border-radius: 6px;
+  /*font-weight: 600;*/
+  font-size: medium;
+}
+
+.shiny-notification-message {
+  background-color: #39CCCC;
+  color: #000000;
+  border: 1px solid #51cfdf;
+}
+
+.shiny-notification-warning {
+  background-color: #f39c12;
+  color: #000000;
+  border: 1px solid #f39c12;
+}
+
+.shiny-notification-error {
+  background-color: #FF5722;
+  color: #ffffff;
+  border: 1px solid #FF5722;
+}
+
+.modal-open {
+  font-size: medium;
+}
+
+.modal-lg {
+  width: 95%;
+  margin: 20px auto;
+}
+/*
+.modal-dialog {
+  width: 98%;
+  margin: 20px auto;
+}
+*/
